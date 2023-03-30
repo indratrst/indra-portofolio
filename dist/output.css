@@ -1015,12 +1015,12 @@ video {
   padding: 0.25rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -1076,11 +1076,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .pt-20 {
@@ -1668,8 +1663,8 @@ body {
     gap: 0.5rem;
   }
 
-  .md\:p-4 {
-    padding: 1rem;
+  .md\:p-2 {
+    padding: 0.5rem;
   }
 
   .md\:px-14 {
