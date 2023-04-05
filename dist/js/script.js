@@ -39,13 +39,25 @@ const darkToggle = document.querySelector("#dark-toggle");
 const html = document.querySelector("html");
 
 darkToggle.addEventListener("click", function () {
-  darkToggle.checked ? html.classList.add("dark") : html.classList.remove("dark");
-  darkToggle.checked ? (localStorage.theme = "dark") : (localStorage.theme = "light");
+  darkToggle.checked
+    ? html.classList.add("dark")
+    : html.classList.remove("dark");
+  darkToggle.checked
+    ? (localStorage.theme = "dark")
+    : (localStorage.theme = "light");
 });
 
 // if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+if (
+  localStorage.theme === "dark" ||
+  (!("theme" in localStorage) &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
+) {
   darkToggle.checked = true;
 } else {
   darkToggle.checked = false;
 }
+
+// slider.addEventListener("mouseleave", () => {
+// 	slider.style.cursor = "default";
+// });

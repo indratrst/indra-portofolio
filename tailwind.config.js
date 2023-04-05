@@ -17,6 +17,12 @@ module.exports = {
       screens: {
         "2xl": "1320px",
       },
+      gridTemplateColumns: {
+        "auto-fit-100": "repeat(auto-fit,1fr)",
+      },
+      height: {
+        128: "60vh",
+      },
     },
   },
   plugins: [],
