@@ -34,7 +34,7 @@ body {
 }
 
 .achievement-card {
-  @apply m-3 mx-3 h-full  w-full shrink-0 basis-96 overflow-hidden  md:w-1/3;
+  @apply m-3 h-full  shrink-0 basis-80 overflow-hidden md:w-1/2 md:basis-96;
 }
 
 #dark-toggle:checked ~ label div.toggle-circle {
