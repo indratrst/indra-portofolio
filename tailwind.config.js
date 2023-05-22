@@ -13,6 +13,7 @@ module.exports = {
         dark: "#0F172A",
         secondary: "#64748b",
         light: "#CBD5E1",
+        navy: "#181823",
       },
       screens: {
         "2xl": "1320px",
